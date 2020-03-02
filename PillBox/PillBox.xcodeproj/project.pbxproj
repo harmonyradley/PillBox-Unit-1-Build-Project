@@ -12,6 +12,13 @@
 		15F47F54240DAF5B006A7D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F47F52240DAF5B006A7D21 /* Main.storyboard */; };
 		15F47F56240DAF5B006A7D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F47F55240DAF5B006A7D21 /* Assets.xcassets */; };
 		15F47F59240DAF5B006A7D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F47F57240DAF5B006A7D21 /* LaunchScreen.storyboard */; };
+		FED0520B240DB4CC0099AE91 /* Profile Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0520A240DB4CC0099AE91 /* Profile Model.swift */; };
+		FED0520D240DB4E30099AE91 /* Profile Model Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0520C240DB4E30099AE91 /* Profile Model Controller.swift */; };
+		FED0520F240DB4F60099AE91 /* Prescription Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0520E240DB4F60099AE91 /* Prescription Model.swift */; };
+		FED05211240DB51A0099AE91 /* Prescription Model Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED05210240DB51A0099AE91 /* Prescription Model Controller.swift */; };
+		FED05215240DB58A0099AE91 /* Prescription ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED05214240DB58A0099AE91 /* Prescription ViewController.swift */; };
+		FED05217240DB65B0099AE91 /* AddProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED05216240DB65B0099AE91 /* AddProfileViewController.swift */; };
+		FED05219240DB6AD0099AE91 /* AddPrescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED05218240DB6AD0099AE91 /* AddPrescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		15F47F55240DAF5B006A7D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15F47F58240DAF5B006A7D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15F47F5A240DAF5B006A7D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED0520A240DB4CC0099AE91 /* Profile Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile Model.swift"; sourceTree = "<group>"; };
+		FED0520C240DB4E30099AE91 /* Profile Model Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile Model Controller.swift"; sourceTree = "<group>"; };
+		FED0520E240DB4F60099AE91 /* Prescription Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prescription Model.swift"; sourceTree = "<group>"; };
+		FED05210240DB51A0099AE91 /* Prescription Model Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prescription Model Controller.swift"; sourceTree = "<group>"; };
+		FED05214240DB58A0099AE91 /* Prescription ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prescription ViewController.swift"; sourceTree = "<group>"; };
+		FED05216240DB65B0099AE91 /* AddProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfileViewController.swift; sourceTree = "<group>"; };
+		FED05218240DB6AD0099AE91 /* AddPrescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPrescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,13 @@
 			isa = PBXGroup;
 			children = (
 				15F47F52240DAF5B006A7D21 /* Main.storyboard */,
+				FED0520A240DB4CC0099AE91 /* Profile Model.swift */,
+				FED0520C240DB4E30099AE91 /* Profile Model Controller.swift */,
+				FED0520E240DB4F60099AE91 /* Prescription Model.swift */,
+				FED05210240DB51A0099AE91 /* Prescription Model Controller.swift */,
+				FED05214240DB58A0099AE91 /* Prescription ViewController.swift */,
+				FED05218240DB6AD0099AE91 /* AddPrescriptionViewController.swift */,
+				FED05216240DB65B0099AE91 /* AddProfileViewController.swift */,
 				15F47F57240DAF5B006A7D21 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -151,8 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED05219240DB6AD0099AE91 /* AddPrescriptionViewController.swift in Sources */,
 				15F47F4D240DAF5B006A7D21 /* AppDelegate.swift in Sources */,
 				15F47F4F240DAF5B006A7D21 /* SceneDelegate.swift in Sources */,
+				FED05217240DB65B0099AE91 /* AddProfileViewController.swift in Sources */,
+				FED0520B240DB4CC0099AE91 /* Profile Model.swift in Sources */,
+				FED0520F240DB4F60099AE91 /* Prescription Model.swift in Sources */,
+				FED0520D240DB4E30099AE91 /* Profile Model Controller.swift in Sources */,
+				FED05211240DB51A0099AE91 /* Prescription Model Controller.swift in Sources */,
+				FED05215240DB58A0099AE91 /* Prescription ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
